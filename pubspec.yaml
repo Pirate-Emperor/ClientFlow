@@ -1,0 +1,76 @@
+name: ClientFlow
+description: "Client Flow - CRM Tool"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.0.0
+  fl_chart: ^0.36.3
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.0
+  mysql1: ^0.20.0
+  intl: ^0.17.0
+  shared_preferences: any
+  google_nav_bar: any
+  crypto: any
+  flutter_widget_from_html: ^0.14.11
+  google_fonts: ^6.2.0
+  timezone: 0.8.0
+  dropdown_button2: ^2.3.9
+  email_validator: ^2.1.17
+  path: any
+  transparent_image: ^2.0.1
+  url_launcher: ^6.0.3
+  flutter_launcher_icons: ^0.13.1
+  shimmer: ^3.0.0
+  html: ^0.15.0
+  flutter_dotenv: ^5.1.0
+  firebase_core: ^3.4.0
+  firebase_messaging: ^15.1.0
+  flutter_local_notifications: ^9.8.0+1
+  workmanager: ^0.5.1
+  flutter_svg: ^2.0.10+1
+  permission_handler: ^10.2.0
+  connectivity_plus: ^6.0.5
+  connectivity_plus_platform_interface: ^2.0.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  date_picker_plus: ^4.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - asset/logo/
+    - asset/
+    - asset/icon/
+    - asset/icons/
+    - .env
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
