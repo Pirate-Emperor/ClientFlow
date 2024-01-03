@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871144482240",
+    "project_id": "sales-navigator-cdeb4",
+    "storage_bucket": "sales-navigator-cdeb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871144482240:android:2dbbf577e0d40f0676d425",
+        "android_client_info": {
+          "package_name": "com.example.sales_navigator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCScCknaXQpG_apftYmhGtODr_a11YgtoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
